@@ -1,25 +1,30 @@
-## EPISODE-01 : Introduction to NodeJs
+# EPISODE-01: Introduction to NodeJs
 
-**What is Node.js?**
+### What is Node.js?
 
-Node.js is a cross-platform, open-source JavaScript runtime environment that can run on Windows, Linux, Unix, macOS, and more. Node.js runs on the V8 JavaScript engine, and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting.
+Node.js is a cross-platform, open-source JavaScript runtime environment that can run on Windows, Linux, Unix, macOS, and more. Node.js runs on the V8 JavaScript engine and executes JavaScript code outside a web browser. It allows developers to use JavaScript for server-side scripting and command-line tools.
 
-- Node.js is maintained by the **OpenJS** Foundation.  
-  Node.js executes JavaScript code outside the web browser.
-- JavaScript is the language at the core of the web and browsers, but with Node.js, you can now run it everywhere. That’s why Node.js is often associated with the phrase **“Run JS everywhere.”**
-- Node.js has an event-driven architecture and is capable of asynchronous I/O **(non-blocking I/O)**
-- Node.js was built by **Ryan Dahl** in 2009.
-- To run JavaScript, you always need a JavaScript engine
-- Everywhere you write JavaScript code, there is a JavaScript engine that executes the code.
-- Ryan started with the **SpiderMonkey** JavaScript engine, which is found in Firefox. However, within two days, he switched to **V8** and never looked back.
-- Initially, **Ryan** was working independently, but a company named Joyent was working on something similar to Node.js. They hired **Ryan** to work under them, offering to fund his project — a big contribution from Joyent.
-- The original name of Node.js was **“web.js,”** but it was later renamed to “Node.js” because its scope extends beyond web servers.
-- The **Apache HTTP Server** was a blocking server, so Ryan wanted to create a non-blocking server. This is why **Node.js** is a **Non-blocking** I/O.
-- The advantage of a non-blocking server is that it can handle multiple requests with a smaller number of threads.
-- In **2010,** NPM was introduced. NPM is a package manager for Node.js. Node.js wouldn’t be as successful without NPM.
-- Initially, Node.js was built only for **macOS and Linux**, but in **2011**, it was also supported on Microsoft platforms.
-- In **2012**, **Isaac Z.** Schlueter started maintaining Node.js, he is also the creator of NPM.
-- In **2014**, **Fedor Indutny** developed a fork of **Node.js** named **io.js**, leading to controversy within the company. A few developers began maintaining the io.js branch.
-- In **2015**, Node.js and io.js were merged, forming the **Node.js Foundation.**
-- In **2019**, the JS Foundation and Node.js Foundation merged to form the **OpenJS Foundation**, which currently maintains Node.js.
+- Node.js is maintained by the **OpenJS Foundation**.
+- It executes JavaScript code outside the web browser.
+- JavaScript is the core language of the web, and with Node.js, you can run it anywhere, hence the phrase "**Run JS everywhere**."
+- Node.js has an **event-driven architecture** and supports **asynchronous I/O (non-blocking I/O)**.
+- Node.js was created by **Ryan Dahl** in 2009.
+- Ryan initially used the **SpiderMonkey** engine but quickly switched to **V8**.
+- **Joyent** hired Ryan to work on Node.js, funding his project and contributing significantly to its growth.
+- Originally called **"web.js"**, it was renamed **"Node.js"** due to its broader scope beyond web servers.
+- **Apache HTTP Server** was a blocking server, but Ryan's goal was to create a non-blocking server.
+- A non-blocking server can handle multiple requests with fewer threads.
+- In **2010**, **NPM** (Node Package Manager) was introduced, which significantly contributed to Node.js's success.
+- Initially available on **macOS** and **Linux**, Node.js gained **Microsoft** platform support in **2011**.
+- In **2012**, **Isaac Z. Schlueter**, the creator of NPM, took over Node.js maintenance.
+- In **2014**, **Fedor Indutny** forked Node.js into **io.js**, causing controversy. The two were merged in **2015** to form the **Node.js Foundation**.
+- In **2019**, the **JS Foundation** and **Node.js Foundation** merged to create the **OpenJS Foundation**, which now maintains Node.js.
 
+---
+
+### Summary
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="./Assets/summary01.png" alt="Summary 1" style="width: 45%;"/>
+  <img src="./Assets/summary02.png" alt="Summary 2" style="width: 45%;"/>
+</div>
