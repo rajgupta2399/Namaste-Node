@@ -25,12 +25,11 @@ Node.js is a cross-platform, open-source JavaScript runtime environment that can
 ### 📑 Summary
 
 <div style="display: flex; justify-content: space-between; align-items: center; flex-direction: row;">
-<div>
-  <img src="./Assets/summary01.png" alt="Summary 1" style="width: 45%;"/>
-</div>
-<div style="width: 5%;">
-</div>
   <div>
-  <img src="./Assets/summary02.png" alt="Summary 2" style="width: 45%;"/>
-</div>
+    <img src="./Assets/summary01.png" alt="Summary 1" style="width: 45%;"/>
+  </div>
+  <div style="width: 5%;"></div> <!-- Add a gap here using an empty div -->
+  <div>
+    <img src="./Assets/summary02.png" alt="Summary 2" style="width: 45%;"/>
+  </div>
 </div>
