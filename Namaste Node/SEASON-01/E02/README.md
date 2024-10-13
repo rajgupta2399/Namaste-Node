@@ -1,6 +1,6 @@
 # 🚀 EPISODE-02: Javascript On Servers
 
-<img src="./Assets/E02.jpeg" alt="Summary 1" style="width: 100%;"/>
+<img src="./Assets/E02.jpeg" alt="Summary 1" style="width: 50%;"/>
 
 ### 💡 What is Server ?
 
@@ -51,5 +51,5 @@ Low-level code refers to programming languages or code that is closer to machine
 
 ### 💡 Why use Node Js on servers ?
 
-I think you have now a idea why use node js on servers instead of directly using Js
+I think you have now a idea why use node js on servers instead of directly using Js.
 Node js have the V8 engine + Node Api and Modules (superPower), it gives superpowers to the Node js
