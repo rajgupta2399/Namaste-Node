@@ -15,3 +15,16 @@ Behind the scenes, when a computer needs to communicate with a server, it sends 
 - ECMAScript standards are followed by JavaScript engines like V8, SpiderMonkey, Chakra, and others to ensure consistent behavior across different environments.
 
 <img src="https://miro.medium.com/v2/resize:fit:1276/0*RVz0TPe7oALmmvB3" alt="Summary 1" style="width: 100%;"/>
+
+
+### 💡 What is V8 ?
+V8 is Google’s open source high-performance JavaScript and WebAssembly engine, written in C++. It is used in Chrome and in Node.js, among others. It implements ECMAScript and WebAssembly, and runs on Windows, macOS, and Linux systems that use x64, IA-32, or ARM processors. V8 can be embedded into any C++ application.
+
+<img src="./Assets/v8.png" alt="Summary 1" style="width: 100%;"/>
+
+- The V8 JavaScript engine is written in C++.
+- V8 can be embedded into any C++ program, which is a crucial feature.
+- The process works as follows: JavaScript code is executed by V8 (written in C++), which then compiles it down to machine code that the computer can
+execute.
+
+<img src="./Assets/v81.png" alt="Summary 1" style="width: 100%;"/>
