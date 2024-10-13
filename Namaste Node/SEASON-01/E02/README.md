@@ -29,13 +29,6 @@ Behind the scenes, when a computer needs to communicate with a server, it sends 
 - 🔧 It is used in Chrome and Node.js to run JavaScript code efficiently.
 - 🖥️ V8 converts JavaScript code into machine code, which the computer can execute directly.
 
-<img src="./Assets/v8.png" alt="Summary 1" style="width: 100%;"/>
-
-- The V8 JavaScript engine is written in C++.
-- V8 can be embedded into any C++ program, which is a crucial feature.
-- The process works as follows: JavaScript code is executed by V8 (written in C++), which then compiles it down to machine code that the computer can
-  execute.
-
 <img src="./Assets/v81.png" alt="Summary 1" style="width: 100%;"/>
 
 ### 💡 V8 is c++ Code ?
