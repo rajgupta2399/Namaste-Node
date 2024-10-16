@@ -1,6 +1,6 @@
 # 📥 EPISODE-02: Let's Write Code
 
-<img src="./Assets/ep3.jpeg" alt="Summary 1" style="width: 50%;"/>
+<img src="./Assets/ep3.jpeg" alt="Summary 1" style="width: 50%; height:40%;"/>
 
 First, download and install Node.js on your system from the official website. Node.js comes with npm (Node Package Manager), which is essential for managing and installing packages in your JavaScript projects.
 
