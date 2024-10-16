@@ -1,6 +1,6 @@
 # 📥 EPISODE-02: Let's Write Code
 
-<img src="./Assets/ep3.jpeg" alt="Summary 1" style="width: 50%; height:40%;"/>
+<img src="./Assets/ep3.jpeg" alt="Summary 1" style="width: 100%;"/>
 
 First, download and install Node.js on your system from the official website. Node.js comes with npm (Node Package Manager), which is essential for managing and installing packages in your JavaScript projects.
 
@@ -88,3 +88,27 @@ Output in Terminal
     Node JS 03
     15
 ```
+
+### 📝 Let’s talk about global objects in NodeJS.
+
+- The window object is a global object provided by the browser, not by the V8 engine.
+
+<img src="./Assets/ep32.png" alt="Summary 1" style="width: 100%;"/>
+
+- Now, In Node.js, the global object is known as global , which is equivalent to the window object in the browser.
+
+<img src="./Assets/ep31.png" alt="Summary 1" style="width: 100%;"/>
+
+- A global object is not a part of the V8 engine; instead, it’s a feature provided by Node.js.
+- This global object offers various functionalities, such as setTimeout() , setInterval() , and more.
+
+#### Important Note:
+
+console.log(this); // Outputs: {}
+When you use console.log(this); at the global level in Node.js, it will log an empty object, indicating that this does not refer to the global object in this context.
+#### Global this
+is always a global object, regardless of where it is accessed. It was introduced in ECMAScript 2020 to provide a standardized way to refer to the global object in
+any environment (browsers, Node.js, etc.).
+- In browsers, global is equivalent to window .
+- In Node.js, globalThis is equivalent to global .
+It provides a consistent way to access the global object without worrying about the environment.
